@@ -6,19 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-<section>
-    <h1>Home</h1>
-   <nav><h3><a href="homepage.com">home</a>
-        <a href="about">about us</a>
-        <a href="work">work</a>
-        <a href="resume">resume</a>
-        <a href="contact">contact</a></h3>
-    
-    </nav>    </section>
+  
+   <nav>
+   
+    <a href="homepage.com">home</a>
+        <a href="#about">about us</a>
+        <a href="#work">work</a>
+        <a href="#biography">resume</a>
+        <a href="#contact">contact</a>
+        
+    </nav>   
+ 
 <br>
-<form action=""></form>
 
-<section>
+
+
+<section class="aboutus" id="about">
     <h1>About Us </h1>
     <p>Photography is the art of capturing light with a camera, usually via a digital sensor or film, to create an image.
         The first permanent photograph was captured in 1826 by Joseph Nicéphore Niépce in France.and since then this art developped and many artist were born.
@@ -26,7 +29,7 @@
     </p></section>
 
 
-<section>
+<main class="resume" id="biography">
     <h1>Resume</h1>
        <h2> carsten peter</h2>
     <p>photographer ,Filmmaker ,Biologist ,Adventurer</p>
@@ -47,10 +50,11 @@ In addition to his World Press award for his coverage of tornadoes while stormch
  he has received an Emmy Award for his videography from inside an active volcano in the South Pacific.</p>
 
 
-</section>
+</main>
 
 
-<section><h1>Work</h1>
+<section class="work" id="work">
+    <h1>Work</h1>
 
 
 <h2>Galerie : </h2> 
@@ -65,13 +69,12 @@ In addition to his World Press award for his coverage of tornadoes while stormch
       
     <br> <h2>Go behind the scenes and hear photographer and National Geographic grantee Carsten Peter talk about his caree</h2>
     <video src="https://youtu.be/RYTgF8mVjYo" autoplay muted controls="false" width="400"></video>
+</section>
 
-<h2>lectures</h2>
+<aside>
+    <h2>lectures</h2>
 <p>Enjoy the live experience of Carsten Peter with his new multimedia
-lecture view the time line table below</p> </section>
-
-
-<section>
+lecture view the time line table below</p> 
     <table border="2" width="500">
     <h2>Dates</h2>
     <tr><td>Fr</td>
@@ -87,16 +90,27 @@ lecture view the time line table below</p> </section>
     <td>7:30 pm</td>
     <td>Omaha, NE (USA)</td></tr>
     
-</table> </section>
-<aside><h1>Comments</h1>
+</table> </aside>
+
+
+    <form action="" id="contact">
+        <h1>Your Space</h1>
+        <label for="">Your Name</label><br>
+<input type="text" placeholder="Name"><br>
+<label for="">Your Email Adresse</label><br>
+<input type="email" placeholder="Email"><br>
+
+<label for="">Comments</label><br>
     <textarea cols="30" rows="6"> </textarea></aside>
-    
-</form>
-
-<br><br>
-
-     <footer> For more information and details please visit our official web site 
+    <br>
+ For more information and details please visit our official web site 
         <a href="www.portfolios.com">www.prtfolios.com</a>
+   
+</form>
+   
+<br>
+
+     <footer> 
     <p>Pin © All rights reserved. Designed and developed by good web</p></footer>
 
 
